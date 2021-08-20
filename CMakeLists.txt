@@ -30,7 +30,7 @@ option(ENABLE_SANITIZE "Enable sanitize" OFF)
 
 # explicitly list all source file
 
-add_executable(binary_analyzer src/binary_analyzer.cpp)
+add_executable(binary_analyzer src/perf/binary_analyzer.cpp)
 
 
 
